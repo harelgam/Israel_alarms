@@ -133,6 +133,7 @@ max_date = df_filtered['date'].max()
 # --- 2. בניית האפליקציה ---
 # הוספת external_stylesheets יכולה לפעמים לעזור לסידור ה-CSS, אך כאן נפתור זאת ידנית
 app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     html.H1("מפת איומים אינטראקטיבית", style={'textAlign': 'center', 'fontFamily': 'Arial', 'color': '#333'}),
