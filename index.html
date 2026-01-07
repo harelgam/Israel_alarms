@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>פורטל נתוני חירום - ישראל</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <h1>פורטל נתוני חירום ואזעקות - ישראל</h1>
+            <p>ריכוז ויזואליזציות, מפות אינטראקטיביות וניתוח נתונים של אירועי ביטחון.</p>
+        </div>
+    </header>
+
+    <section class="live-app-section">
+        <div class="container">
+            <h2 class="section-title">מפת איומים אינטראקטיבית (Live)</h2>
+            <p class="section-desc">פילוח אזעקות בזמן אמת לפי ערים, שעות וסוגי איום.</p>
+            <div class="iframe-container">
+                <iframe src="https://israel-alarms.onrender.com/" title="Israel Alarms Dashboard" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="reports-section">
+        <div class="container">
+            <h2 class="section-title">דוחות וניתוחי עומק</h2>
+            <p class="section-desc">לחץ על כרטיס כדי לפתוח את הויזואליזציה המלאה.</p>
+
+            <div class="grid-container">
+                <a href="cumulative_israel_map_new.html" target="_blank" class="card">
+                    <div class="card-icon">🗺️</div>
+                    <h3>מפה מצטברת</h3>
+                    <p>מיפוי כלל האזעקות על גבי מפת ישראל לאורך זמן.</p>
+                </a>
+
+                <a href="daily_iron_swords_lines.html" target="_blank" class="card">
+                    <div class="card-icon">📈</div>
+                    <h3>מגמות יומיות - חרבות ברזל</h3>
+                    <p>גרף קווי המציג את כמות האירועים היומית במהלך המלחמה.</p>
+                </a>
+
+                <a href="events_by_hour_ampm.html" target="_blank" class="card">
+                    <div class="card-icon">⏰</div>
+                    <h3>התפלגות לפי שעות</h3>
+                    <p>ניתוח שעות הפעילות והאזעקות במהלך היממה (AM/PM).</p>
+                </a>
+
+                <a href="monthly_events_by_source.html" target="_blank" class="card">
+                    <div class="card-icon">📅</div>
+                    <h3>פילוח חודשי לפי מקור</h3>
+                    <p>השוואה חודשית של אירועים לפי גורם האיום.</p>
+                </a>
+
+                <a href="iron_swords_race.html" target="_blank" class="card">
+                    <div class="card-icon">🏁</div>
+                    <h3>מירוץ הערים</h3>
+                    <p>אנימציית Bar Chart Race המציגה את הערים המטווחות ביותר לאורך זמן.</p>
+                </a>
+
+                <a href="israel_static_heatmap_7oct.html" target="_blank" class="card">
+                    <div class="card-icon">🔥</div>
+                    <h3>מפת חום - 7 באוקטובר</h3>
+                    <p>מיקוד באירועי היום הראשון למלחמה.</p>
+                </a>
+
+                <a href="security_events_final.html" target="_blank" class="card">
+                    <div class="card-icon">🛡️</div>
+                    <h3>אירועי ביטחון כלליים</h3>
+                    <p>סקירה רחבה של כלל אירועי הביטחון.</p>
+                </a>
+                 <a href="cumulative_iron_swords_final_fixed.html" target="_blank" class="card">
+                    <div class="card-icon">📊</div>
+                    <h3>סיכום מצטבר - חרבות ברזל</h3>
+                    <p>נתונים סופיים ומצטברים עבור המלחמה.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="static-analysis-section">
+        <div class="container">
+            <h2 class="section-title">ניתוח שנתי: רקטות מול כלי טיס</h2>
+            <div class="image-wrapper">
+                <img src="Rocket vs Hostile Aircraft Events per Year.png" alt="גרף רקטות מול כלי טיס">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>פותח על ידי Harel Gam &copy; 2024 | מבוסס על נתוני פיקוד העורף</p>
+    </footer>
+
+</body>
+</html>
