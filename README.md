@@ -1,4 +1,4 @@
-# 🇮🇱 Israel Alarms Data Analysis & Visualization
+# 🇮🇱 Israel Alerts Data Analysis & Visualization
 
 **פורטל נתוני חירום ואזעקות - ישראל**
 
@@ -7,7 +7,7 @@
 ## 🚀 כניסה לאתר (Live Demo)
 הפרויקט זמין לצפייה מלאה בדפדפן דרך הקישור הבא:
 
-### 🌐 [לחץ כאן לכניסה לפורטל הנתונים המלא](https://harelgam.github.io/Israel_alarms/)
+### 🌐 [לחץ כאן לכניסה לפורטל הנתונים המלא](https://harelgam.github.io/Israel_alerts/)
 
 ---
 
