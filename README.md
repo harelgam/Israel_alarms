@@ -46,7 +46,7 @@
 
 1.  שכפל את המאגר:
     ```bash
-    git clone [https://github.com/harelgam/Israel_alarms.git](https://github.com/harelgam/Israel_alarms.git)
+    git clone [https://github.com/harelgam/Israel_alerts.git](https://github.com/harelgam/Israel_alerts.git)
     ```
 2.  התקן את החבילות הנדרשות:
     ```bash
