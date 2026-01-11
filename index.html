@@ -13,7 +13,7 @@
         <div class="container">
             <h1>פורטל נתוני חירום ואזעקות - ישראל</h1>
             <p>ריכוז ויזואליזציות, מפות אינטראקטיביות וניתוח נתונים של אירועי ביטחון.</p>
-            </p>הנתונים כוללים רק איומים שגרמו להפעלת אזעקות, כלומר איומים ששוגרו לעבר ישראל, אך לא גרמו להפעלת אזעקה הם לא חלק מהנתונים</p>
+            <p>הנתונים כוללים רק איומים שגרמו להפעלת אזעקות, כלומר איומים ששוגרו לעבר ישראל, אך לא גרמו להפעלת אזעקה הם לא חלק מהנתונים</p>
         </div>
     </header>
 
@@ -29,16 +29,38 @@
 
     <section class="reports-section">
         <div class="container">
-            <h2 class="section-title">דוחות וניתוחי עומק</h2>
-            <p class="section-desc">לחץ על כרטיס כדי לפתוח את הויזואליזציה המלאה.</p>
-
+            <h2 class="section-title">מפות תצוגה</h2>
+            <p class="section-desc">מיפוי אזעקות ואירועים על גבי מפות אינטראקטיביות.</p>
+            
             <div class="grid-container">
+                <a href="MAP_Alert_Locations_by_Launch_Origin_Iron_Swords.html" target="_blank" class="card">
+                    <div class="card-icon">📍</div>
+                    <h3>מפת מקורות שיגור</h3>
+                    <p>מיקומי האזעקות בחלוקה לפי מקור השיגור במלחמת חרבות ברזל.</p>
+                </a>
+
                 <a href="cumulative_israel_map_new.html" target="_blank" class="card">
                     <div class="card-icon">🗺️</div>
                     <h3>מפה מצטברת</h3>
                     <p>מיפוי כלל האזעקות על גבי מפת ישראל לאורך זמן.</p>
                 </a>
 
+                <a href="israel_static_heatmap_7oct.html" target="_blank" class="card">
+                    <div class="card-icon">🔥</div>
+                    <h3>מפת חום סטטית - חרבות ברזל</h3>
+                    <p>מיקוד האזעקות ומפת חום.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reports-section">
+        <div class="container">
+            <h2 class="section-title">דוחות וניתוחי עומק</h2>
+            <p class="section-desc">לחץ על כרטיס כדי לפתוח את הויזואליזציה המלאה.</p>
+
+            <div class="grid-container">
+                
                 <a href="daily_iron_swords_lines.html" target="_blank" class="card">
                     <div class="card-icon">📈</div>
                     <h3>מגמות יומיות - חרבות ברזל</h3>
@@ -63,40 +85,27 @@
                     <p>אנימציית Bar Chart Race המציגה את הערים המטווחות ביותר לאורך זמן.</p>
                 </a>
 
-                <a href="israel_static_heatmap_7oct.html" target="_blank" class="card">
-                    <div class="card-icon">🔥</div>
-                    <h3>מפת חום סטטית- חרבות ברזל</h3>
-                    <p>מיקוד האזעקות.</p>
-                </a>
-
                 <a href="security_events_final.html" target="_blank" class="card">
                     <div class="card-icon">🛡️</div>
                     <h3>אירועי טילים ומלטים</h3>
-                    <p>תצוגה של כלל האירועים בשנים האחרונותן.</p>
+                    <p>תצוגה של כלל האירועים בשנים האחרונות.</p>
                 </a>
-                 <a href="cumulative_iron_swords_final_fixed.html" target="_blank" class="card">
+                
+                <a href="cumulative_iron_swords_final_fixed.html" target="_blank" class="card">
                     <div class="card-icon">📊</div>
                     <h3>סיכום מצטבר - חרבות ברזל</h3>
                     <p>נתונים סופיים ומצטברים עבור המלחמה.</p>
                 </a>
+
+                <a href="Rocket vs Hostile Aircraft Events per Year.png" target="_blank" class="card">
+                    <div class="card-icon">✈️</div>
+                    <h3>רקטות מול כלי טיס</h3>
+                    <p>גרף השוואתי שנתי בין סוגי האיומים השונים.</p>
+                </a>
+
             </div>
         </div>
     </section>
-
-    <section class="static-analysis-section">
-        <div class="container">
-            <h2 class="section-title">ניתוח שנתי: רקטות מול כלי טיס</h2>
-            <div class="image-wrapper">
-                <img src="Rocket vs Hostile Aircraft Events per Year.png" alt="גרף רקטות מול כלי טיס">
-            </div>
-        </div>
-    </section>
-
 
 </body>
-
 </html>
-
-
-
-
