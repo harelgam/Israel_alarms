@@ -39,21 +39,4 @@
 * `project.ipynb` - מחברת המחקר עם תהליכי עיבוד הנתונים.
 * `*.html` - דוחות ויזואליזציה שנוצרו (מפות, גרפים).
 * `alarms.csv` - קובץ הנתונים הגולמי.
-
-## 💻 הרצה מקומית (Installation)
-
-אם ברצונך להריץ את קוד ה-Python אצלך במחשב:
-
-1.  שכפל את המאגר:
-    ```bash
-    git clone [https://github.com/harelgam/Israel_alerts.git](https://github.com/harelgam/Israel_alerts.git)
-    ```
-2.  התקן את החבילות הנדרשות:
-    ```bash
-    pip install -r requirements.txt
-    ```
-3.  הרץ את האפליקציה:
-    ```bash
-    python app.py
-    ```
-תודות ליובל הרפז על הדאה המאורגן מפורטל החירום הלאומי דרך צבע אדום
+תודות ליובל הרפז (yuval-harpaz) על הדאה המאורגן מפורטל החירום הלאומי דרך צבע אדום
