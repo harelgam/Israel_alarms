@@ -1,4 +1,4 @@
-# 🇮🇱 Israel Alerts Data Analysis & Visualization
+# Israel Alerts Data Analysis & Visualization
 
 **פורטל נתוני חירום ואזעקות - ישראל**
 
